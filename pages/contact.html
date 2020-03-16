@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160775795-6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-160775795-6');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- import stylesheets -->
+  <link rel="stylesheet" type="text/css" href="../css/html5reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <!-- import fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <!-- import favicon -->
+  <link rel="shortcut icon" type="image/png" href="../assets/favicons/svg.png"/>
+  <title>Sydney Peters</title>
+</head>
+
+<body>
+  <a class = "skip" href="#main">Jump to Content</a>
+  <header>
+      <nav id="intro-nav">
+          <a><img src="../assets/bitmoji.png" alt="bitmoji icon" id="bitmoji"></a>
+          <ul class="nav-items">
+              <li class="nav-item"><a href="../index.html">HOME</a></li>
+              <li class="nav-item"><a href="../pages/about.html">ABOUT</a></li>
+              <li class="nav-item"><a href="../pages/people.html">PEOPLE</a></li>
+              <li class="nav-item"><a href="../pages/places.html">PLACES</a></li>
+              <li class="active"><a href="../pages/contact.html">CONTACT</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <main id="main">
+    <div id="banner">
+        <h1>Feel Free to Reach Out</h1>
+    </div>
+
+    <div class="contact">
+			<form method="post" action="mailto:PETERSYD@UMICH.EDU" enctype="text/plain">
+
+      <div class="name-field">
+				<label for = "name">Name:</label>
+				<input type="text" name="name" id="name"/>
+			</div>
+
+      <div class="email-field">
+				<label for = "email">Email:</label>
+				<input type="text" name="email" id="email"/>
+			</div>
+
+      <div class="message-field">
+				<label for = "message">Message:</label>
+				<textarea rows="4" name="message" id="message"></textarea>
+			</div>
+
+    	<ul class="sendit">
+				<li><input type="submit" value="Send Message" class="alt" aria-label="send message button"/></li>
+			</ul>
+      </form>
+		</div>
+  </main>
+
+  <footer>
+      <ul class="footer-items">
+          <li class="footer-item"><a href= "https://www.linkedin.com/in/sydneyrpeters/"><img class="icon" src="../assets/icons/linkedin.png" alt="linkedin"></a></li>
+          <li class="footer-item"><a href= "https://github.com/srp250?tab=repositories"><img class="icon" src="../assets/icons/github.png" alt="github"></a></li>
+          <li class="footer-item"><a href= "https://www.instagram.com/sydrpeters/"><img class="icon" src="../assets/icons/instagram.png" alt="instagram"></a></li>
+          <li class="footer-item"><a href= "https://twitter.com/srp250"><img class="icon" src="../assets/icons/twitter.png" alt="twitter"></a></li>
+      </ul>
+      <p>Portfolio by Sydney Peters / 13 March 2020</p>
+  </footer>
+
+</body>
+</html>
